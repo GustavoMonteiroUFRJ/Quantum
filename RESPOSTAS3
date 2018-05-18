@@ -1,0 +1,6 @@
+Comando:
+cat /etc/passwd | grep '^[^:]*' -o |sort -u |tr '\n' ' ' && echo ''
+
+
+Saida:
+_apt aredra backup bin daemon devash dnsmasq dparin dredew embeac ersize games glecti gnats iasmen ighted irc itabho italen keysan lierne list lp lxd mail man master mbitto messagebus napper nermrs news nobody pashet pollinate proxy root sshd sync sys syslog systemd-bus-proxy systemd-network systemd-resolve systemd-timesync tedatu tersio unscd uppies uucp uuidd www-data 

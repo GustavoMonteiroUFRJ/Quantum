@@ -1,0 +1,8 @@
+Comando:
+find /etc/ -type d  -iname *network* -mtime -48 -mtime +18 -perm /050 2>/dev/null 
+
+Saída:
+/etc/NetworkManager
+/etc/network
+/etc/apparmor/init/network-interface-security
+/etc/systemd/system/network-online.target.wants

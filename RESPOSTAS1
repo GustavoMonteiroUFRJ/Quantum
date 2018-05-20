@@ -1,6 +1,7 @@
 a) FQDN:
 Comando: dnsdomainname
 Saida: z1nwssmsvnuetn1uzcjqs3ammg.nx.internal.cloudapp.net
+FQDN = prova-quantum.z1nwssmsvnuetn1uzcjqs3ammg.nx.internal.cloudapp.net
 
 b) Memoria da Maquina:
 Comando: cat /proc/meminfo | grep MemTotal

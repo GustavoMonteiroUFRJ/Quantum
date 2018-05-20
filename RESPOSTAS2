@@ -1,1 +1,10 @@
+Comando: 
 systemctl list-units | grep -m 5 .service.*running
+
+Saida:
+  accounts-daemon.service                                                                                                                                            loaded active running   Accounts Service
+  acpid.service                                                                                                                                                      loaded active running   ACPI event daemon
+  atd.service                                                                                                                                                        loaded active running   Deferred execution scheduler
+  cron.service                                                                                                                                                       loaded active running   Regular background program processing daemon
+  dbus.service                                                                                                                                                       loaded active running   D-Bus System Message Bus
+

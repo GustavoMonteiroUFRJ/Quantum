@@ -5,22 +5,26 @@ Saida: z1nwssmsvnuetn1uzcjqs3ammg.nx.internal.cloudapp.net
 b) Memoria da Maquina:
 Comando: cat /proc/meminfo | grep MemTotal
 Saida: MemTotal:         921096 kB
-A maquina possui aproximadamente 9GB de RAM 
+A maquina possui aproximadamente 900MB de RAM.
 
 c) CPUs:
 Comando: cat /proc/cpuinfo | grep cores
 Sainda: cpu cores	: 1
-A maquina possui 1 core
+A maquina possui 1 core.
 
 d)Espaço em disco:
 Comando: df -h | grep /dev/sda1
 Saida:/dev/sda1        30G  2.1G   27G   7% /
+A maquina possui 30GB de espaço em disco snedo 27GB livres.
 
 e)Versao do sistema:
 Comando: cat /etc/issue
 Saida: Ubuntu 16.04.4 LTS \n \l
 
 f) Ip na rede local:
-Comando: ifconfig | grep -m 1 inet addr
-Comando: inet addr:10.0.0.5  Bcast:10.0.0.255  Mask:255.255.255.0
-Ip é 10.0.0.5 da rede 10.0.0.0/24
+Comando: 	
+Saida: 
+          inet addr:10.0.0.5  Bcast:10.0.0.255  Mask:255.255.255.0
+          inet addr:127.0.0.1  Mask:255.0.0.0
+
+Ip da rede local é 10.0.0.5 da rede 10.0.0.0/24

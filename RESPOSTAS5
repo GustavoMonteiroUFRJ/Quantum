@@ -1,4 +1,6 @@
-Mensagem da pagina
+Mensagem da pagina:
 O QUANTUM AXIS é uma plataforma web que possibilita acessar, analisar, comparar e acompanhar informações financeiras em formato interativo.
-Mensagem do log
+
+
+Mensagem do log:
 2018-05-20 20:22:09.722  INFO 119459 --- [io-8080-exec-10] b.c.q.p.ProvaController                  : Mensagem logada: O QUANTUM PORTF?LIO ? um sistema desenvolvido para constru??o e an?lise de portf?lios e carteiras de investimentos.

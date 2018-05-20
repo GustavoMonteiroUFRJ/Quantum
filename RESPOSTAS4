@@ -1,7 +1,7 @@
 Comando:
-find /etc/ -type d  -iname *network* -mtime -48 -mtime +18 -perm /050 2>/dev/null 
+find /etc/ -type d  -iname *network* -newermt 2018-04-01 ! -newermt 2018-05-01  ! -perm -020 -perm -050 2>/dev/null 
 
-Saída:
+Saida:
 /etc/NetworkManager
 /etc/network
 /etc/apparmor/init/network-interface-security
